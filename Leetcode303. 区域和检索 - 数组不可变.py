@@ -30,5 +30,5 @@ class NumArray:
 
 
 # Your NumArray object will be instantiated and called as such:
-obj = NumArray(nums=[-2, 0, 3, -5, 2, -1])
-param_1 = obj.sumRange(i=0, j=2)
+# obj = NumArray(nums=[-2, 0, 3, -5, 2, -1])
+# param_1 = obj.sumRange(i=0, j=2)
