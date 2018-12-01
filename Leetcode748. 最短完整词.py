@@ -58,9 +58,5 @@ class Solution:
             if len(i) == min(tmp):
                 return i
 
-
-
-
-
 if __name__ == "__main__":
     Solution().shortestCompletingWord(licensePlate = "1s3 456", words = ["looks", "pest", "stew", "show"])
