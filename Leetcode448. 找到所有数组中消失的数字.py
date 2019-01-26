@@ -39,7 +39,7 @@ class Solution:
             if i not in s:
                 l.append(i)
         return l
-        # 最佳达案
+        # 最佳答案
 
     def findDisappearedNumbers3(self, nums):
         li = set(nums)
