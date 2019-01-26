@@ -44,7 +44,7 @@ class Solution:
     def findDisappearedNumbers3(self, nums):
         li = set(nums)
         return [i for i in range(1, len(nums) + 1) if i not in li]
-        # 修改方案1,问题出现在list(set(nums))会导致内部错误,原因未知
+        # 修改方案1,问题出现在list(set(nums))会导致超出时间限制,原因未知,也许是list(set(nums))计算量大
 if __name__=="__main__":
     print(Solution().findDisappearedNumbers(nums=[4, 3, 2, 7, 8, 2, 3, 1]))
     print(Solution().findDisappearedNumbers2(nums=[4, 3, 2, 7, 8, 2, 3, 1]))
