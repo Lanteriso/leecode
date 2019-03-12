@@ -1,4 +1,4 @@
-#-*-coding:utf-8-*-
+
 """
 在柠檬水摊上，每一杯柠檬水的售价为 5 美元。
 
@@ -58,7 +58,7 @@ class Solution:
                 if 5 in changer:
                     changer.remove(5)
                 else:
-                    print False,changer
+
                     return False
                     break
             if i ==20:
@@ -70,10 +70,9 @@ class Solution:
                     changer.remove(5)
                     changer.remove(5)
                 else:
-                    print False,changer
                     return False
                     break
-        print True
+
         return True
 
 bills = [5,5,10,20,5,5,5,5,5,5,5,5,5,10,5,5,20,5,20,5]
